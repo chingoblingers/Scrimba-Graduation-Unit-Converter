@@ -1,0 +1,14 @@
+body{
+    background-color: #1C1C1C;
+}
+
+main{
+    width: 34.375rem;
+    height: 45.563rem;
+    margin: auto;
+    background-color: #F4F4F4;
+}
+
+.hero{
+    background-color: #6943FF;
+}
