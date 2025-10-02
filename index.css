@@ -9,6 +9,58 @@ main{
     background-color: #F4F4F4;
 }
 
+
+input{
+    width: 7.313rem;
+    height: 5.188rem;
+    border: 2px solid #B295FF;
+    background: none;
+    font-size: 3.625rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+button{
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    width: 3.875rem;
+    height: 1.5rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 0.313rem;
+    padding: .3rem .3rem;
+}
+
 .hero{
     background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0 0;
+}
+
+section{
+    width: 31.25rem;
+    height: 6.786rem;
+    background-color: #FFFFFF;
+    color: #5A537B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.464rem;
+}
+
+.conversion-container{
+    display: flex;
+    gap: .2rem;
 }
