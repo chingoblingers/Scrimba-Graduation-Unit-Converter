@@ -6,3 +6,15 @@ const gallonsContainer =  document.getElementById("gallons")
 const kiloContainer =  document.getElementById("kilos")
 const poundsContainer =  document.getElementById("pounds")
 const button = document.getElementById("btn")
+
+button.addEventListener("click", function(){
+    let number = input.value
+    convertMetersAndFeet(number)
+})
+
+function convertMetersAndFeet(num){
+    let meters = num * 3.281
+    let feet = num / 3.281
+    meterContainter.textContent = `${num} meters = ${meters} feet |`
+    feetContainer.textContent = ` ${num} feet = ${feet} meters`
+}
